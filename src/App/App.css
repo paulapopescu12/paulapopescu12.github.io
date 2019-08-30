@@ -1,13 +1,18 @@
+body {
+  background-color: #333;
+  min-width: 1050px;
+}
+
 .app {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: #333;
 }
 
 .app-content {
   flex: 1 1 auto;
-  display: flex;
+  width: 1050px;
+  margin: 0 auto;
 }
 
 .app a {
